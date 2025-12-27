@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TrashVision</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-light bg-white shadow-sm">
+        <div class="container">
+            <span class="navbar-brand mb-0 h4 text-success">
+                ♻️ TrashVision
+            </span>
+        </div>
+    </nav>
+</header>
+
+<main class="container py-4">
+    @RenderBody()
+</main>
+
+<footer class="text-center text-muted py-3 small">
+    © 2025 - TrashVision | Sistem Pemeriksaan Jenis Sampah
+</footer>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+@await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

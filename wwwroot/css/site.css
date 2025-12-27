@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(135deg, #d4fc79, #96e6a1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* CENTER AREA */
+.page-center {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card h1 {
+    color: #2e7d32;
+}
+
+/* SUBTITLE */
+.subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* UPLOAD */
+.upload-box {
+    display: block;
+    padding: 15px;
+    border: 2px dashed #4caf50;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.upload-box:hover {
+    background: #f1f8e9;
+}
+
+/* BUTTON */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #388e3c;
+}
+
+/* RESULT */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* ORGANIK */
+.organik {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-left: 6px solid #2e7d32;
+}
+
+/* ANORGANIK */
+.anorganik {
+    background: #e3f2fd;
+    color: #1565c0;
+    border-left: 6px solid #1565c0;
+}
+
+/* B3 */
+.b3 {
+    background: #ffebee;
+    color: #c62828;
+    border-left: 6px solid #c62828;
+}

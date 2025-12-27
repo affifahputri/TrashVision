@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "TrashVision";
+}
+
+<div class="page-center">
+    <div class="card">
+        <h1>TrashVision</h1>
+        <p class="subtitle">Upload gambar sampah untuk diprediksi</p>
+
+        <form method="post" enctype="multipart/form-data">
+            <label class="upload-box">
+                Pilih Gambar
+                <input type="file" name="imageFile" hidden required />
+            </label>
+
+            <button type="submit" class="btn">Prediksi Sampah</button>
+        </form>
+
+        @if (ViewBag.Result != null)
+        {
+            <div class="result @ViewBag.Result.ToString().ToLower()">
+                Hasil: @ViewBag.Result
+            </div>
+        }
+    </div>
+</div>

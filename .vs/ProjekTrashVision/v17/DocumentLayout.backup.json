@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\ml\\imageprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:ml\\imageprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\ml\\imageinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:ml\\imageinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T15:48:09.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-14T15:45:02.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T15:41:53.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T15:41:33.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImagePrediction.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\ML\\ImagePrediction.cs",
+              "RelativeDocumentMoniker": "ML\\ImagePrediction.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\ML\\ImagePrediction.cs",
+              "RelativeToolTip": "ML\\ImagePrediction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T15:32:32.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageInput.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\ML\\ImageInput.cs",
+              "RelativeDocumentMoniker": "ML\\ImageInput.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\ML\\ImageInput.cs",
+              "RelativeToolTip": "ML\\ImageInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T15:32:06.402Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
