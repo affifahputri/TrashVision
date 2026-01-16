@@ -3,6 +3,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Register the ImageClassifier service
+builder.Services.AddSingleton<ImageClassifier>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

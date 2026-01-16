@@ -2,25 +2,212 @@
     ViewData["Title"] = "TrashVision";
 }
 
-<div class="page-center">
-    <div class="card">
-        <h1>TrashVision</h1>
-        <p class="subtitle">Upload gambar sampah untuk diprediksi</p>
+<style>
+    :root {
+        --navy-dark: #0a192f;
+        --navy-main: #112240;
+        --gray-dark: #1f2933;
+        --gray-light: #9ca3af;
+        --white: #ffffff;
+        --accent: #38bdf8;
+    }
 
-        <form method="post" enctype="multipart/form-data">
-            <label class="upload-box">
-                Pilih Gambar
-                <input type="file" name="imageFile" hidden required />
-            </label>
+    * {
+        box-sizing: border-box;
+    }
 
-            <button type="submit" class="btn">Prediksi Sampah</button>
-        </form>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, var(--navy-dark), var(--gray-dark));
+        color: var(--white);
+        overflow-x: hidden;
+    }
 
-        @if (ViewBag.Result != null)
-        {
-            <div class="result @ViewBag.Result.ToString().ToLower()">
-                Hasil: @ViewBag.Result
-            </div>
+    /* NAVBAR */
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 18px 6vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(10, 25, 47, 0.85);
+        backdrop-filter: blur(10px);
+        z-index: 100;
+    }
+
+    .navbar strong {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .nav-links a {
+        color: var(--white);
+        text-decoration: none;
+        margin-left: 25px;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .nav-links a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 0;
+        height: 2px;
+        background: var(--accent);
+        transition: 0.3s;
+    }
+
+    .nav-links a:hover::after {
+        width: 100%;
+    }
+
+    .nav-links .btn {
+        padding: 10px 22px;
+        background: var(--accent);
+        color: var(--navy-dark);
+        border-radius: 30px;
+        font-weight: 600;
+    }
+
+    /* HERO */
+    .hero {
+        min-height: 100vh;
+        padding: 120px 8vw 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: clamp(38px, 6vw, 58px);
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        max-width: 720px;
+        margin: auto;
+        line-height: 1.7;
+        color: var(--gray-light);
+    }
+
+    .hero .cta {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 16px 42px;
+        background: linear-gradient(135deg, var(--accent), #0ea5e9);
+        color: var(--navy-dark);
+        border-radius: 40px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .hero .cta:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 15px 35px rgba(56,189,248,0.4);
+    }
+
+    /* SECTION */
+    section {
+        padding: 90px 8vw;
+        background: linear-gradient(180deg, transparent, rgba(255,255,255,0.03));
+    }
+
+    section h2 {
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 32px;
+    }
+
+    .trash-types {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+        gap: 30px;
+    }
+
+    .box {
+        background: rgba(255,255,255,0.05);
+        padding: 35px 25px;
+        border-radius: 20px;
+        text-align: center;
+        border: 1px solid rgba(255,255,255,0.08);
+        transition: transform 0.3s, background 0.3s;
+    }
+
+    .box:hover {
+        transform: translateY(-10px);
+        background: rgba(56,189,248,0.08);
+    }
+
+    .box h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .box p {
+        color: var(--gray-light);
+        line-height: 1.6;
+    }
+
+    /* RESPONSIVE */
+    (max-width: 768px) {
+        .nav-links a {
+            margin-left: 15px;
         }
+    }
+</style>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <strong>🗑️ TrashVision</strong>
+    <div class="nav-links">
+        <a asp-action="Index" asp-controller="Home">Home</a>
+        <a asp-action="Upload" asp-controller="Home">Upload Gambar</a>
+        <a asp-action="Privacy" asp-controller="Home" class="btn">Privacy Policy</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Deteksi Sampah Berbasis Gambar</h1>
+        <p>
+            TrashVision adalah sistem cerdas berbasis C# dan computer vision
+            untuk mengklasifikasikan jenis sampah secara otomatis demi
+            lingkungan yang lebih bersih dan berkelanjutan.
+        </p>
+
+        <a asp-action="Upload" asp-controller="Home" class="cta">
+            Upload & Deteksi Sekarang
+        </a>
     </div>
 </div>
+
+<!-- INFO -->
+<section>
+    <h2>Jenis Sampah yang Dideteksi</h2>
+
+    <div class="trash-types">
+        <div class="box">
+            <h3>🍃 Organik</h3>
+            <p>Sisa makanan, daun, dan limbah alami yang mudah terurai.</p>
+        </div>
+
+        <div class="box">
+            <h3>🧴 Anorganik</h3>
+            <p>Plastik, botol, kaleng, dan bahan sulit terurai.</p>
+        </div>
+
+        <div class="box">
+            <h3>☠️ B3</h3>
+            <p>Limbah berbahaya seperti baterai dan bahan kimia.</p>
+        </div>
+    </div>
+</section>
