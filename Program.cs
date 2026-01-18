@@ -1,28 +1,39 @@
+using Microsoft.EntityFrameworkCore;
+using System.IO;
+using ProjekTrashVision.Data; // Pastikan folder 'Data' sudah ada filenya
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+// 1. Pastikan folder uploads tersedia untuk menampung gambar dari user
+var contentRoot = builder.Environment.ContentRootPath;
+Directory.CreateDirectory(Path.Combine(contentRoot, "wwwroot", "uploads"));
 
-// Register the ImageClassifier service
-builder.Services.AddSingleton<ImageClassifier>();
+// 2. Registrasi Services
+builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews(); // Penting agar Controller/Views dikenali
+
+// 3. Konfigurasi MySQL Laragon (Koreksi di bagian ServerVersion)
+var conn = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(conn, ServerVersion.AutoDetect(conn)) // Laragon akan dideteksi otomatis
+);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// 4. Konfigurasi Middleware
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-
+app.UseStaticFiles(); // Mengizinkan akses ke wwwroot (gambar, css, js)
 app.UseRouting();
-
 app.UseAuthorization();
 
+// 5. Mapping Routes
+app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

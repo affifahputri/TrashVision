@@ -1,95 +1,72 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Hosting;
-using System.IO;
-using System.Threading.Tasks;
+using ProjekTrashVision.Data;
+using ProjekTrashVision.Models;
+using System.Linq;
 
-public class HomeController : Controller
+namespace ProjekTrashVision.Controllers
 {
-    private readonly IWebHostEnvironment _env;
-    private readonly ImageClassifier _classifier;
-
-    public HomeController(IWebHostEnvironment env, ImageClassifier classifier)
+    public class HomeController : Controller
     {
-        _env = env;
-        _classifier = classifier;
-    }
+        private readonly AppDbContext _context;
 
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    // GET handler supaya /Home/Upload (GET) tidak menghasilkan 405
-    [HttpGet]
-    public IActionResult Upload()
-    {
-        return View("UploadGambar");
-    }
-
-    public IActionResult UploadGambar()
-    {
-        return View();
-    }
-
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Upload(IFormFile gambar)
-    {
-        // existing non-AJAX form submit (file input)
-        if (gambar == null || gambar.Length == 0)
+        public HomeController(AppDbContext context)
         {
-            ModelState.AddModelError("", "Pilih file gambar.");
-            return View("UploadGambar");
+            _context = context;
         }
 
-        var uploads = Path.Combine(_env.WebRootPath, "uploads");
-        Directory.CreateDirectory(uploads);
-
-        var fileName = Path.GetRandomFileName() + Path.GetExtension(gambar.FileName);
-        var filePath = Path.Combine(uploads, fileName);
-
-        using (var stream = System.IO.File.Create(filePath))
+        // PERBAIKAN 1: Kirim objek kosong ke View saat pertama kali buka
+        public IActionResult Index()
         {
-            await gambar.CopyToAsync(stream);
+            return View(new UploadViewModel());
         }
 
-        var prediction = _classifier != null ? _classifier.Predict(filePath) : null;
-
-        ViewBag.Result = prediction?.Label ?? "Model not loaded";
-        ViewBag.Score = prediction?.Score;
-        ViewBag.ImageUrl = "/uploads/" + fileName;
-
-        return View("UploadGambar");
-    }
-
-    // Untuk AJAX dari kamera: abaikan antiforgery token agar fetch() sederhana berhasil.
-    [HttpPost]
-    [IgnoreAntiforgeryToken]
-    public async Task<IActionResult> UploadAjax(IFormFile gambar)
-    {
-        if (gambar == null || gambar.Length == 0)
-            return BadRequest("Tidak ada file gambar.");
-
-        var uploads = Path.Combine(_env.WebRootPath, "uploads");
-        Directory.CreateDirectory(uploads);
-
-        var fileName = Path.GetRandomFileName() + Path.GetExtension(gambar.FileName);
-        var filePath = Path.Combine(uploads, fileName);
-
-        using (var stream = System.IO.File.Create(filePath))
+        [HttpPost]
+        public async Task<IActionResult> Upload(IFormFile fotoSampah) // Sesuaikan nama 'fotoSampah' dengan di HTML
         {
-            await gambar.CopyToAsync(stream);
+            var viewModel = new UploadViewModel();
+
+            if (fotoSampah == null || fotoSampah.Length == 0)
+            {
+                ViewBag.Error = "Silakan pilih foto terlebih dahulu.";
+                return View("Index", viewModel);
+            }
+
+            // 1. Baca gambar ke dalam Byte Array
+            using var ms = new MemoryStream();
+            await fotoSampah.CopyToAsync(ms);
+            byte[] imageBytes = ms.ToArray();
+
+            // 2. Jalankan Prediksi AI
+            var input = new ModelSampah.ModelInput()
+            {
+                ImageSource = imageBytes
+            };
+
+            var result = ModelSampah.Predict(input);
+
+            // 3. Ambil Label dan Skor
+            string labelHasil = result.PredictedLabel;
+            float skor = result.Score.Max() * 100;
+
+            // 4. Masukkan data ke ViewModel untuk ditampilkan di Web
+            viewModel.HasilPrediksi = labelHasil;
+            viewModel.SkorKepastian = skor;
+            viewModel.GambarBase64 = Convert.ToBase64String(imageBytes);
+
+            // 5. SIMPAN KE DATABASE (LARAGON)
+            var dataBaru = new RiwayatDeteksi
+            {
+                NamaFile = fotoSampah.FileName,
+                LabelHasil = labelHasil,
+                SkorKeyakinan = (float)Math.Round(skor, 2),
+                WaktuUpload = DateTime.Now
+            };
+
+            _context.RiwayatDeteksis.Add(dataBaru);
+            await _context.SaveChangesAsync();
+
+            // PERBAIKAN 2: Kirim viewModel kembali ke View
+            return View("Index", viewModel);
         }
-
-        var prediction = _classifier != null ? _classifier.Predict(filePath) : null;
-
-        var result = new
-        {
-            label = prediction?.Label ?? "Model not loaded",
-            score = prediction?.Score,
-            imageUrl = "/uploads/" + fileName
-        };
-
-        return Json(result);
     }
 }

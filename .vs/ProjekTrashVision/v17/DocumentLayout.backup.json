@@ -7,8 +7,79 @@
       "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Migrations\\20260118155129_InitialCreateFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260118155129_InitialCreateFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\models\\riwayatdeteksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:models\\riwayatdeteksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Migrations\\20260118154750_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260118154750_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\modelsampah.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:modelsampah.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\models\\uploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:models\\uploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\models\\wastetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:models\\wastetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\models\\scanresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:models\\scanresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\views\\home\\uploadg||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\uploadg||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\views\\home\\uploadgambar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\uploadgambar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\projektrashvision.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:projektrashvision.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\AppData\\Local\\SourceServer\\a15739dffd796363e4846182db5fa31c3e14e8f0a666b66af3069e17007f47ba\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,44 +94,8 @@
       "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\views\\home\\uploadgambar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\uploadgambar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\services\\imageclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:services\\imageclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\ml\\imageprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:ml\\imageprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\ml\\imageinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:ml\\imageinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\ulbi\\semester 3\\pbo\\trashvision_tubes-pbo\\trashvision\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,24 +105,187 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "20260118155129_InitialCreateFix.cs",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Migrations\\20260118155129_InitialCreateFix.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260118155129_InitialCreateFix.cs",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Migrations\\20260118155129_InitialCreateFix.cs",
+              "RelativeToolTip": "Migrations\\20260118155129_InitialCreateFix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T15:51:29.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260118154750_InitialCreate.cs",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Migrations\\20260118154750_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260118154750_InitialCreate.cs",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Migrations\\20260118154750_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260118154750_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T15:47:51.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RiwayatDeteksi.cs",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Models\\RiwayatDeteksi.cs",
+              "RelativeDocumentMoniker": "Models\\RiwayatDeteksi.cs",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Models\\RiwayatDeteksi.cs",
+              "RelativeToolTip": "Models\\RiwayatDeteksi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T15:27:28.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-18T15:26:26.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModelSampah.mbconfig",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\ModelSampah.mbconfig",
+              "RelativeDocumentMoniker": "ModelSampah.mbconfig",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\ModelSampah.mbconfig",
+              "RelativeToolTip": "ModelSampah.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2026-01-18T14:55:04.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UploadViewModel.cs",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Models\\UploadViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\UploadViewModel.cs",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Models\\UploadViewModel.cs",
+              "RelativeToolTip": "Models\\UploadViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T14:47:07.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProjekTrashVision.csproj",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\ProjekTrashVision.csproj",
+              "RelativeDocumentMoniker": "ProjekTrashVision.csproj",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\ProjekTrashVision.csproj",
+              "RelativeToolTip": "ProjekTrashVision.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-17T16:45:43.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\AppData\\Local\\SourceServer\\a15739dffd796363e4846182db5fa31c3e14e8f0a666b66af3069e17007f47ba\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\Lenovo\\AppData\\Local\\SourceServer\\a15739dffd796363e4846182db5fa31c3e14e8f0a666b66af3069e17007f47ba\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\AppData\\Local\\SourceServer\\a15739dffd796363e4846182db5fa31c3e14e8f0a666b66af3069e17007f47ba\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\Lenovo\\AppData\\Local\\SourceServer\\a15739dffd796363e4846182db5fa31c3e14e8f0a666b66af3069e17007f47ba\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:33:43.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:27:50.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ScanResult.cs",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Models\\ScanResult.cs",
+              "RelativeDocumentMoniker": "Models\\ScanResult.cs",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Models\\ScanResult.cs",
+              "RelativeToolTip": "Models\\ScanResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:27:42.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WasteType.cs",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Models\\WasteType.cs",
+              "RelativeDocumentMoniker": "Models\\WasteType.cs",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Models\\WasteType.cs",
+              "RelativeToolTip": "Models\\WasteType.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:27:06.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-17T13:20:59.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "UploadG",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Home\\UploadG",
               "RelativeDocumentMoniker": "Views\\Home\\UploadG",
-              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Home\\UploadG*",
-              "RelativeToolTip": "Views\\Home\\UploadG*",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAQwHABAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Home\\UploadG",
+              "RelativeToolTip": "Views\\Home\\UploadG",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAHABAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-01-16T11:45:18.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 20,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -100,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 21,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -113,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 22,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -126,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -139,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -151,71 +349,47 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwCgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T11:21:28.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ImageClassifier.cs",
-              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Services\\ImageClassifier.cs",
-              "RelativeDocumentMoniker": "Services\\ImageClassifier.cs",
-              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Services\\ImageClassifier.cs",
-              "RelativeToolTip": "Services\\ImageClassifier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T11:33:42.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "UploadGambar.cshtml",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Home\\UploadGambar.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\UploadGambar.cshtml",
               "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Home\\UploadGambar.cshtml",
               "RelativeToolTip": "Views\\Home\\UploadGambar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-16T11:24:41.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-14T15:48:09.954Z"
+              "WhenOpened": "2025-12-14T15:48:09.954Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "site.css",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -223,7 +397,8 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAFUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-14T15:45:02.954Z"
+              "WhenOpened": "2025-12-14T15:45:02.954Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -231,51 +406,41 @@
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "Controllers\\HomeController.cs*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAWwFcAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T15:41:53.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwCkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-14T15:41:33.88Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ImagePrediction.cs",
-              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\ML\\ImagePrediction.cs",
-              "RelativeDocumentMoniker": "ML\\ImagePrediction.cs",
-              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\ML\\ImagePrediction.cs",
-              "RelativeToolTip": "ML\\ImagePrediction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:32:32.419Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ImageInput.cs",
-              "DocumentMoniker": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\ML\\ImageInput.cs",
-              "RelativeDocumentMoniker": "ML\\ImageInput.cs",
-              "ToolTip": "C:\\ULBI\\SEMESTER 3\\PBO\\TrashVision_TUBES-PBO\\TrashVision\\ML\\ImageInput.cs",
-              "RelativeToolTip": "ML\\ImageInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:32:06.402Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
