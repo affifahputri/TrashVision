@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Upload Sampah";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #0a192f, #1f2933);
+        color: white;
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .camera-page {
+        min-height: 100vh;
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .camera-card {
+        background: rgba(255,255,255,0.06);
+        padding: 30px;
+        border-radius: 20px;
+        width: 360px;
+        text-align: center;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    video, canvas {
+        width: 100%;
+        border-radius: 14px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 30px;
+        font-weight: bold;
+        background: #38bdf8;
+        color: #0a192f;
+        cursor: pointer;
+    }
+</style>
+
+<div class="camera-page">
+    <div class="camera-card">
+        <h2>📷 Ambil Foto Sampah</h2>
+
+        <!-- LIVE CAMERA -->
+        <video id="video" autoplay playsinline></video>
+
+        <!-- HASIL FOTO -->
+        <canvas id="canvas" style="display:none;"></canvas>
+
+        <form asp-action="Upload" method="post">
+            <input type="hidden" name="gambar" id="gambar" />
+            <button type="button" onclick="ambilFoto()">📸 Ambil Foto</button>
+            <br /><br />
+            <button type="submit">🚀 Deteksi Sampah</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    const video = document.getElementById("video");
+    const canvas = document.getElementById("canvas");
+    const inputGambar = document.getElementById("gambar");
+
+    // NYALAKAN KAMERA SAAT PAGE DIBUKA
+    navigator.mediaDevices.getUserMedia({
+        video: { facingMode: "environment" },
+        audio: false
+    })
+    .then(stream => {
+        video.srcObject = stream;
+    })
+    .catch(err => {
+        alert("Kamera tidak bisa diakses!");
+        console.error(err);
+    });
+
+    function ambilFoto() {
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(video, 0, 0);
+
+        // Convert ke Base64
+        const imageData = canvas.toDataURL("image/png");
+        inputGambar.value = imageData;
+
+        alert("Foto berhasil diambil!");
+    }
+</script>

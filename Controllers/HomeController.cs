@@ -1,72 +1,91 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjekTrashVision.Data;
+using Microsoft.AspNetCore.Http;
 using ProjekTrashVision.Models;
-using System.Linq;
+using System;
+using System.IO;
 
 namespace ProjekTrashVision.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly AppDbContext _context;
-
-        public HomeController(AppDbContext context)
-        {
-            _context = context;
-        }
-
-        // PERBAIKAN 1: Kirim objek kosong ke View saat pertama kali buka
+        // ================= HOME =================
+        [HttpGet]
         public IActionResult Index()
         {
-            return View(new UploadViewModel());
+            return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Upload(IFormFile fotoSampah) // Sesuaikan nama 'fotoSampah' dengan di HTML
+        // ================= UPLOAD PAGE =================
+        [HttpGet]
+        public IActionResult Upload()
         {
-            var viewModel = new UploadViewModel();
+            return View();
+        }
 
-            if (fotoSampah == null || fotoSampah.Length == 0)
+        // ================= UPLOAD POST =================
+        [HttpPost]
+        public IActionResult Upload(IFormFile gambar, string gambarBase64)
+        {
+            string fileName = "";
+
+            var folderPath = Path.Combine(
+                Directory.GetCurrentDirectory(),
+                "wwwroot",
+                "uploads"
+            );
+
+            if (!Directory.Exists(folderPath))
+                Directory.CreateDirectory(folderPath);
+
+            // ===== DARI KAMERA =====
+            if (!string.IsNullOrEmpty(gambarBase64))
             {
-                ViewBag.Error = "Silakan pilih foto terlebih dahulu.";
-                return View("Index", viewModel);
+                var base64Data = gambarBase64.Split(',')[1];
+                var bytes = Convert.FromBase64String(base64Data);
+
+                fileName = Guid.NewGuid().ToString() + ".png";
+                var filePath = Path.Combine(folderPath, fileName);
+
+                System.IO.File.WriteAllBytes(filePath, bytes);
+            }
+            // ===== DARI FILE =====
+            else if (gambar != null && gambar.Length > 0)
+            {
+                fileName = Guid.NewGuid().ToString() + Path.GetExtension(gambar.FileName);
+                var filePath = Path.Combine(folderPath, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    gambar.CopyTo(stream);
+                }
+            }
+            else
+            {
+                return RedirectToAction("Upload");
             }
 
-            // 1. Baca gambar ke dalam Byte Array
-            using var ms = new MemoryStream();
-            await fotoSampah.CopyToAsync(ms);
-            byte[] imageBytes = ms.ToArray();
+            // ===== SIMULASI DETEKSI =====
+            string jenisSampah;
 
-            // 2. Jalankan Prediksi AI
-            var input = new ModelSampah.ModelInput()
+            if (fileName.ToLower().Contains("daun") ||
+                fileName.ToLower().Contains("makanan"))
             {
-                ImageSource = imageBytes
+                jenisSampah = "Organik";
+            }
+            else
+            {
+                jenisSampah = "Anorganik";
+            }
+
+            // ===== ISI MODEL =====
+            var hasil = new DeteksiSampah
+            {
+                NamaFile = fileName,
+                JenisSampah = jenisSampah,
+                Tanggal = DateTime.Now
             };
 
-            var result = ModelSampah.Predict(input);
-
-            // 3. Ambil Label dan Skor
-            string labelHasil = result.PredictedLabel;
-            float skor = result.Score.Max() * 100;
-
-            // 4. Masukkan data ke ViewModel untuk ditampilkan di Web
-            viewModel.HasilPrediksi = labelHasil;
-            viewModel.SkorKepastian = skor;
-            viewModel.GambarBase64 = Convert.ToBase64String(imageBytes);
-
-            // 5. SIMPAN KE DATABASE (LARAGON)
-            var dataBaru = new RiwayatDeteksi
-            {
-                NamaFile = fotoSampah.FileName,
-                LabelHasil = labelHasil,
-                SkorKeyakinan = (float)Math.Round(skor, 2),
-                WaktuUpload = DateTime.Now
-            };
-
-            _context.RiwayatDeteksis.Add(dataBaru);
-            await _context.SaveChangesAsync();
-
-            // PERBAIKAN 2: Kirim viewModel kembali ke View
-            return View("Index", viewModel);
+            return View("Hasil", hasil);
         }
     }
 }

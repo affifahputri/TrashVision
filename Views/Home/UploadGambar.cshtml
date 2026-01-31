@@ -1,35 +1,20 @@
 ﻿@{
-    ViewData["Title"] = "Upload Sampah";
+    ViewData["Title"] = "Deteksi Sampah";
 }
 
-<div class="container text-center mt-5">
-    <h2>📸 Deteksi Sampah Organik & Anorganik</h2>
-    <hr />
+<h2>Deteksi Sampah</h2>
 
-    <form asp-controller="Home" asp-action="DeteksiSampah" method="post" enctype="multipart/form-data" class="mt-4">
-        <div class="mb-3">
-            <input type="file" name="foto" class="form-control" accept="image/*" required />
-        </div>
-        <button type="submit" class="btn btn-primary btn-lg">Mulai Deteksi</button>
-    </form>
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
 
-    @if (ViewBag.Hasil != null)
-    {
-        <div class="mt-5 p-4 border rounded shadow-sm @(ViewBag.Hasil == "organik" ? "bg-success text-white" : "bg-warning text-dark")">
-            <h3>Hasil: @ViewBag.Hasil.ToUpper()</h3>
-            <p>Tingkat Akurasi AI: @ViewBag.Skor%</p>
+    <!-- Kamera -->
+    <label>Kamera</label><br />
+    <input type="file" name="gambar" accept="image/*" capture="environment" required />
+    <br /><br />
 
-            <div class="mt-3">
-                <strong>Tips:</strong>
-                @if (ViewBag.Hasil == "organik")
-                {
-                    <p>Sampah ini bisa dijadikan kompos!</p>
-                }
-                else
-                {
-                    <p>Sampah ini harus didaur ulang di Bank Sampah.</p>
-                }
-            </div>
-        </div>
-    }
-</div>
+    <!-- Manual Upload -->
+    <label>Upload Gambar</label><br />
+    <input type="file" name="gambar" accept="image/*" required />
+    <br /><br />
+
+    <button type="submit">Deteksi</button>
+</form>
