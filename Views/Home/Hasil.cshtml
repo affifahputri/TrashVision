@@ -1,0 +1,16 @@
+﻿@model ProjekTrashVision.Models.DeteksiSampah
+
+<h2>Hasil Deteksi Sampah</h2>
+
+<img src="~/uploads/@Model.NamaFile" width="300" />
+
+<p>
+    Jenis Sampah:
+    <strong>@Model.JenisSampah</strong>
+</p>
+
+<p>
+    Waktu:
+    @Model.Tanggal.ToString("dd MMM yyyy HH:mm")
+
+<a asp-action="Upload">Deteksi Lagi</a>

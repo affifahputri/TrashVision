@@ -1,30 +1,95 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\TrashVision\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\ml\\imageprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\models\\deteksisampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:models\\deteksisampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\ml\\imageinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:ml\\imageinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\ml\\imageprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:ml\\imageprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\projektrashvision\\ml\\imageinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:ml\\imageinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\home\\hasil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\hasil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\home\\uploadgambar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\uploadgambar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\home\\upload gambar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\upload gambar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\SourceServer\\7f79605ebe4825d335a8c0a2824efde2ad808e37c85983d320dd3409cb8bf918\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\SourceServer\\e751bcfa0384e1e8b0e756fe0cbf3b3e5e3aae58f832e0af7e8d1cefecf85832\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\SourceServer\\22c3fd24759a2cc808d46cf7f8035c7cb0b3b9b34bea2ce5ce9cc542421be97c\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\views\\home\\upload gambar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:views\\home\\upload gambar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|c:\\users\\user\\source\\repos\\trashvision\\projektrashvision.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36AD7D03-D986-4B15-873E-CD9924036A44}|ProjekTrashVision.csproj|solutionrelative:projektrashvision.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,64 +99,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T03:27:15.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAFMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-14T15:48:09.954Z"
+              "WhenOpened": "2025-12-28T09:03:45.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-14T15:45:02.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T15:41:53.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Upload.cshtml",
+              "RelativeToolTip": "Views\\Home\\Upload.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-14T15:41:33.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T02:45:08.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "Hasil.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Hasil.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Hasil.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Hasil.cshtml",
+              "RelativeToolTip": "Views\\Home\\Hasil.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T02:41:41.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageInput.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\ML\\ImageInput.cs",
+              "RelativeDocumentMoniker": "ML\\ImageInput.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\ML\\ImageInput.cs",
+              "RelativeToolTip": "ML\\ImageInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T15:32:06.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T15:41:33.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeteksiSampah.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Models\\DeteksiSampah.cs",
+              "RelativeDocumentMoniker": "Models\\DeteksiSampah.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Models\\DeteksiSampah.cs",
+              "RelativeToolTip": "Models\\DeteksiSampah.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T02:48:44.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ImagePrediction.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\ML\\ImagePrediction.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\ML\\ImagePrediction.cs",
               "RelativeDocumentMoniker": "ML\\ImagePrediction.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\ML\\ImagePrediction.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\ML\\ImagePrediction.cs",
               "RelativeToolTip": "ML\\ImagePrediction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,15 +216,171 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ImageInput.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\ML\\ImageInput.cs",
-              "RelativeDocumentMoniker": "ML\\ImageInput.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProjekTrashVision\\ML\\ImageInput.cs",
-              "RelativeToolTip": "ML\\ImageInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Upload Gambar.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Upload Gambar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Upload Gambar.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Upload Gambar.cshtml",
+              "RelativeToolTip": "Views\\Home\\Upload Gambar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T09:08:52.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\SourceServer\\7f79605ebe4825d335a8c0a2824efde2ad808e37c85983d320dd3409cb8bf918\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\7f79605ebe4825d335a8c0a2824efde2ad808e37c85983d320dd3409cb8bf918\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\SourceServer\\7f79605ebe4825d335a8c0a2824efde2ad808e37c85983d320dd3409cb8bf918\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\7f79605ebe4825d335a8c0a2824efde2ad808e37c85983d320dd3409cb8bf918\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T02:30:58.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UploadGambar.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\UploadGambar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\UploadGambar.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\UploadGambar.cshtml",
+              "RelativeToolTip": "Views\\Home\\UploadGambar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T02:42:29.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T02:30:53.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T02:30:52.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\SourceServer\\e751bcfa0384e1e8b0e756fe0cbf3b3e5e3aae58f832e0af7e8d1cefecf85832\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\e751bcfa0384e1e8b0e756fe0cbf3b3e5e3aae58f832e0af7e8d1cefecf85832\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\SourceServer\\e751bcfa0384e1e8b0e756fe0cbf3b3e5e3aae58f832e0af7e8d1cefecf85832\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\e751bcfa0384e1e8b0e756fe0cbf3b3e5e3aae58f832e0af7e8d1cefecf85832\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T02:28:57.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\SourceServer\\22c3fd24759a2cc808d46cf7f8035c7cb0b3b9b34bea2ce5ce9cc542421be97c\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\22c3fd24759a2cc808d46cf7f8035c7cb0b3b9b34bea2ce5ce9cc542421be97c\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\SourceServer\\22c3fd24759a2cc808d46cf7f8035c7cb0b3b9b34bea2ce5ce9cc542421be97c\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\22c3fd24759a2cc808d46cf7f8035c7cb0b3b9b34bea2ce5ce9cc542421be97c\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T02:22:57.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T02:12:38.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T15:48:09.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Upload Gambar.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Upload Gambar.cs",
+              "RelativeDocumentMoniker": "Views\\Home\\Upload Gambar.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\Home\\Upload Gambar.cs",
+              "RelativeToolTip": "Views\\Home\\Upload Gambar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:32:06.402Z"
+              "WhenOpened": "2025-12-28T09:08:02.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T08:46:21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-14T15:45:02.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TrashVision\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TrashVision\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-04T11:22:21.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProjekTrashVision.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Source\\Repos\\TrashVision\\ProjekTrashVision.csproj",
+              "RelativeDocumentMoniker": "ProjekTrashVision.csproj",
+              "ToolTip": "C:\\Users\\User\\Source\\Repos\\TrashVision\\ProjekTrashVision.csproj",
+              "RelativeToolTip": "ProjekTrashVision.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-28T09:12:42.513Z"
             }
           ]
         }

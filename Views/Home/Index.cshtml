@@ -2,25 +2,188 @@
     ViewData["Title"] = "TrashVision";
 }
 
-<div class="page-center">
-    <div class="card">
-        <h1>TrashVision</h1>
-        <p class="subtitle">Upload gambar sampah untuk diprediksi</p>
+<style>
+    :root {
+        --navy-dark: #0a192f;
+        --gray-dark: #1f2933;
+        --gray-light: #9ca3af;
+        --white: #ffffff;
+        --accent: #38bdf8;
+    }
 
-        <form method="post" enctype="multipart/form-data">
-            <label class="upload-box">
-                Pilih Gambar
-                <input type="file" name="imageFile" hidden required />
-            </label>
+    html, body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, var(--navy-dark), var(--gray-dark));
+        color: var(--white);
+        font-family: 'Segoe UI', sans-serif;
+        overflow-x: hidden;
+    }
 
-            <button type="submit" class="btn">Prediksi Sampah</button>
-        </form>
+    /* ================= NAVBAR ================= */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 72px;
+        padding: 0 6vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(10, 25, 47, 0.95);
+        backdrop-filter: blur(12px);
+        z-index: 1000;
+        box-sizing: border-box;
+    }
 
-        @if (ViewBag.Result != null)
-        {
-            <div class="result @ViewBag.Result.ToString().ToLower()">
-                Hasil: @ViewBag.Result
-            </div>
+    .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+        .brand svg {
+            width: 34px;
+            height: 34px;
+            fill: var(--accent);
         }
+
+    .nav-links a {
+        color: var(--white);
+        text-decoration: none;
+        margin-left: 26px;
+        font-weight: 500;
+    }
+
+    .nav-links .btn {
+        padding: 8px 18px;
+        background: var(--accent);
+        color: var(--navy-dark);
+        border-radius: 20px;
+        font-weight: 600;
+    }
+
+    /* ================= HERO ================= */
+    .hero {
+        min-height: calc(100vh - 72px); /* ⬅️ PENTING */
+        margin-top: 72px; /* ⬅️ OFFSET NAVBAR */
+        padding: 80px 8vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+        .hero h1 {
+            font-size: clamp(38px, 6vw, 58px);
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 720px;
+            margin: auto;
+            line-height: 1.7;
+            color: var(--gray-light);
+        }
+
+    .cta {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 16px 42px;
+        background: linear-gradient(135deg, var(--accent), #0ea5e9);
+        color: var(--navy-dark);
+        border-radius: 40px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    /* ================= SECTION ================= */
+    section {
+        padding: 90px 8vw;
+    }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 60px;
+            font-size: 32px;
+        }
+
+    .trash-types {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 30px;
+    }
+
+    .box {
+        background: rgba(255, 255, 255, 0.06);
+        padding: 35px 25px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    /* ================= RESPONSIVE ================= */
+    (max-width: 768px) {
+        .nav-links a
+
+    {
+        margin-left: 14px;
+    }
+
+    .hero {
+        padding: 60px 6vw;
+    }
+
+    }
+</style>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="brand">
+        <svg viewBox="0 0 24 24">
+            <path d="M12 2a10 10 0 100 20 10 10 0 000-20z" />
+        </svg>
+        TrashVision
+    </div>
+
+    <div class="nav-links">
+        <a asp-action="Index">Home</a>
+        <a asp-action="Upload">Upload</a>
+        <a asp-action="Privacy" class="btn">Privacy</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Deteksi Sampah Berbasis Gambar</h1>
+        <p>
+            TrashVision adalah sistem cerdas berbasis C#
+            untuk mendeteksi dan mengklasifikasikan jenis sampah
+            secara otomatis.
+        </p>
+
+        <a asp-action="Upload" class="cta">Mulai Deteksi</a>
     </div>
 </div>
+
+<!-- SECTION -->
+<section>
+    <h2>Jenis Sampah</h2>
+
+    <div class="trash-types">
+        <div class="box">
+            <h3>🍃 Organik</h3>
+            <p>Sisa makanan dan limbah alami.</p>
+        </div>
+
+        <div class="box">
+            <h3>🧴 Anorganik</h3>
+            <p>Plastik dan bahan sulit terurai.</p>
+        </div>
+    </div>
+</section>
