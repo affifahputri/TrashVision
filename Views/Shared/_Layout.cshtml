@@ -6,11 +6,14 @@
     <title>@ViewData["Title"] - TrashVision</title>
 
     <style>
-        html, body {
+        body {
+            display: flex;
+            flex-direction: column; /* Biar elemen tersusun dari atas ke bawah */
+            align-items: center;    /* Pusatkan secara horizontal */
+            justify-content: center; /* Pusatkan secara vertikal */
+            min-height: 100vh;      /* Paksa tinggi body seukuran layar monitor */
             margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #0a192f, #1f2933);
-            font-family: 'Segoe UI', sans-serif;
+            background-color: #0f172a; /* Sesuaikan dengan warna background gelapmu */
             color: white;
         }
     </style>
@@ -18,6 +21,8 @@
 <body>
 
     @RenderBody()
+
+    @RenderSection("Scripts", required: false)
 
 </body>
 </html>

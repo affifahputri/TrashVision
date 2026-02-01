@@ -3,97 +3,145 @@
 }
 
 <style>
-    body {
-        background: linear-gradient(135deg, #0a192f, #1f2933);
-        color: white;
-        font-family: 'Segoe UI', sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-
-    .camera-page {
+    .upload-page {
         min-height: 100vh;
-        padding-top: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 20px;
     }
 
     .camera-card {
-        background: rgba(255,255,255,0.06);
-        padding: 30px;
-        border-radius: 20px;
+        background: rgba(255,255,255,0.08);
+        padding: 20px;
+        border-radius: 18px;
         width: 360px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.5);
         text-align: center;
-        box-shadow: 0 20px 40px rgba(0,0,0,0.4);
     }
 
-    video, canvas {
-        width: 100%;
-        border-radius: 14px;
-        margin-bottom: 15px;
+    /* camera preview size (smaller) and responsive */
+    .preview {
+        width: 320px;
+        max-width: 100%;
+        margin: 0 auto 12px auto;
     }
 
-    button {
+    /* If your browser/front camera shows a mirrored preview, this flips it back to normal.
+       If your preview is already correct, remove this transform or set to scaleX(1). */
+    .preview video {
         width: 100%;
-        padding: 12px;
+        height: auto;
+        border-radius: 12px;
+        display: block;
+        transform: scaleX(-1);
+    }
+
+    .preview canvas {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        display: none; /* keep hidden; used only for capture */
+    }
+
+    /* controls below preview */
+    .controls {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        margin-top: 12px;
+    }
+
+    .controls button {
+        min-width: 140px;
+        padding: 10px 14px;
         border: none;
-        border-radius: 30px;
-        font-weight: bold;
+        border-radius: 22px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .btn-capture {
         background: #38bdf8;
         color: #0a192f;
-        cursor: pointer;
+    }
+
+    .btn-capture:hover {
+        background: #0ea5e9;
+    }
+
+    .btn-save {
+        background: #10b981;
+        color: white;
+    }
+
+    .btn-save:hover {
+        background: #059669;
     }
 </style>
 
-<div class="camera-page">
+<div class="upload-page">
     <div class="camera-card">
-        <h2>📷 Ambil Foto Sampah</h2>
+        <h2>@ViewData["Title"]</h2>
 
-        <!-- LIVE CAMERA -->
-        <video id="video" autoplay playsinline></video>
-
-        <!-- HASIL FOTO -->
-        <canvas id="canvas" style="display:none;"></canvas>
+        <div class="preview">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="canvas"></canvas>
+        </div>
 
         <form asp-action="Upload" method="post">
-            <input type="hidden" name="gambar" id="gambar" />
-            <button type="button" onclick="ambilFoto()">📸 Ambil Foto</button>
-            <br /><br />
-            <button type="submit">🚀 Deteksi Sampah</button>
+            <input type="hidden" name="gambarBase64" id="gambarBase64" />
+
+            <div class="controls">
+                <button type="button" id="captureBtn" class="btn-capture">📸 Ambil Foto</button>
+                <button type="submit" class="btn-save">💾 Simpan Foto</button>
+            </div>
         </form>
     </div>
 </div>
 
-<script>
-    const video = document.getElementById("video");
-    const canvas = document.getElementById("canvas");
-    const inputGambar = document.getElementById("gambar");
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
 
-    // NYALAKAN KAMERA SAAT PAGE DIBUKA
-    navigator.mediaDevices.getUserMedia({
-        video: { facingMode: "environment" },
-        audio: false
-    })
-    .then(stream => {
-        video.srcObject = stream;
-    })
-    .catch(err => {
-        alert("Kamera tidak bisa diakses!");
-        console.error(err);
-    });
+            const video = document.getElementById("video");
+            const canvas = document.getElementById("canvas");
+            const ctx = canvas.getContext("2d");
+            const input = document.getElementById("gambarBase64");
+            const btn = document.getElementById("captureBtn");
 
-    function ambilFoto() {
-        canvas.width = video.videoWidth;
-        canvas.height = video.videoHeight;
+            // request camera
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(stream => {
+                    video.srcObject = stream;
+                })
+                .catch(err => {
+                    alert("❌ Kamera tidak bisa diakses");
+                    console.error(err);
+                });
 
-        const ctx = canvas.getContext("2d");
-        ctx.drawImage(video, 0, 0);
+            btn.addEventListener("click", function () {
+                // get effective size (fallbacks)
+                const vw = video.videoWidth || video.clientWidth || 320;
+                const vh = video.videoHeight || Math.round(vw * 3 / 4) || 240;
 
-        // Convert ke Base64
-        const imageData = canvas.toDataURL("image/png");
-        inputGambar.value = imageData;
+                canvas.width = vw;
+                canvas.height = vh;
 
-        alert("Foto berhasil diambil!");
-    }
-</script>
+                // The preview is visually flipped via CSS (scaleX(-1)).
+                // To ensure the saved image is NOT mirrored, flip the canvas drawing horizontally:
+                ctx.save();
+                ctx.translate(canvas.width, 0); // move origin to right edge
+                ctx.scale(-1, 1);               // flip horizontally
+                // draw the video into the flipped canvas coordinate system
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+                ctx.restore();
+
+                // export
+                input.value = canvas.toDataURL("image/png");
+                alert("✅ Foto berhasil diambil (tidak mirror)");
+            });
+
+        });
+    </script>
+}
